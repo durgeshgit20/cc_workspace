@@ -1,0 +1,8 @@
+{
+    "delete_confirmation": {
+        "title": "Hapus ${item: String}?",
+        "message": "Apakah Anda yakin ingin menghapus ${item: String}?",
+        "cancel_button": "Batal",
+        "delete_button": "Hapus"
+    }
+}

@@ -1,0 +1,48 @@
+name: car_crew_widgetbook
+description: "A comprehensive showcase application demonstrating the components and design principles of the Cc Design System."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 0.0.1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_syntax_view: ^4.1.4
+  lottie: 3.3.0
+  provider: ^6.1.2
+  slang: ^4.4.1
+  slang_flutter: ^4.4.0
+  car_crew_ui_kit:
+    
+    path: ../../packages/car_crew_ui_kit
+    
+    
+  widgetbook: ^3.10.2
+  widgetbook_annotation: ^3.2.0
+
+dev_dependencies:
+  build_runner: ^2.4.14
+  change_app_package_name: ^1.4.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  slang_build_runner: ^4.4.0
+  very_good_analysis: ^7.0.0
+  widgetbook_generator: ^3.9.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/animations/
+
+flutter_gen:
+  integrations:
+    flutter_svg: true
+    lottie: true

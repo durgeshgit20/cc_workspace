@@ -1,0 +1,80 @@
+name: car_crew_ui_kit
+description: "A comprehensive UI kit package for Car Crew, providing a collection of customizable and reusable components to streamline the development of consistent and visually appealing user interfaces."
+version: 0.0.1
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+  flutter: ">=3.3.0"
+
+dependencies:
+  dotted_line: ^3.2.3
+  dropdown_button2: ^2.3.9
+  easy_stepper: ^0.8.5+1
+  expansion_widget: ^0.1.0
+  extended_image: ^9.1.0
+  fancy_password_field: ^2.0.8
+  flag: ^7.0.0
+  flash: ^3.1.1
+  flutter:
+    sdk: flutter
+  flutter_keyboard_visibility: ^6.0.0
+  flutter_screenutil: ^5.9.3
+  flutter_spinkit: ^5.2.1
+  flutter_staggered_grid_view: ^0.7.0
+  flutter_svg: ^2.0.17
+  flutter_switch: ^0.3.2
+  fluttertoast: ^8.2.10
+  gap: ^3.0.1
+  google_fonts: ^6.2.1
+  heroine: ^0.2.0+1
+  infinite_scroll_pagination: ^4.1.0
+  loader_overlay: ^5.0.0
+  lottie: 3.3.0
+  nil: ^1.1.1
+  percent_indicator: ^4.2.4
+  pull_to_refresh: ^2.0.0
+  reactive_forms: ^17.0.1
+  reactive_phone_form_field: ^4.0.0
+  reactive_pinput: ^4.0.0
+  skeletonizer: ^2.1.0+1
+  smooth_page_indicator: ^1.2.0+3
+  tap_debouncer: ^2.2.0
+  wolt_modal_sheet: ^0.10.0
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter  
+  golden_toolkit: ^0.15.0
+  very_good_analysis: ^7.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/
+    - assets/svg/icons/
+    - assets/svg/icons/actions/
+    - assets/svg/icons/arrows/
+    - assets/svg/icons/communication/
+    - assets/svg/icons/essentials/
+    - assets/svg/icons/feedback/
+    - assets/svg/icons/files/
+    - assets/svg/icons/finance/
+    - assets/svg/icons/maps/
+    - assets/svg/icons/media/
+    - assets/svg/icons/security/
+    - assets/svg/icons/time/
+    - assets/svg/icons/users/
+    - assets/svg/logo/
+    - assets/lottie/
+    - assets/font/
+
+flutter_gen:
+  output: lib/src/core/generated/
+  assets:
+    outputs:
+      package_parameter_enabled: true
+  integrations:
+    flutter_svg: true
+    lottie: true

@@ -1,0 +1,12 @@
+# melos_managed_dependency_overrides: car_crew_ui_kit,config,core,dependencies,l10n
+dependency_overrides:
+  car_crew_ui_kit:
+    path: ../../packages/car_crew_ui_kit
+  config:
+    path: ../../shared/config
+  core:
+    path: ../../core
+  dependencies:
+    path: ../../shared/dependencies
+  l10n:
+    path: ../../shared/l10n

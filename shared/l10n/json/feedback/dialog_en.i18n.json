@@ -1,0 +1,8 @@
+{
+    "delete_confirmation": {
+        "title": "Delete ${item: String}?",
+        "message": "Are you sure you want to delete ${item: String}?",
+        "cancel_button": "Cancel",
+        "delete_button": "Delete"
+    }
+}
